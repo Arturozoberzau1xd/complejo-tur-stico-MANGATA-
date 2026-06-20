@@ -38,7 +38,7 @@ export default function Contact() {
             <div className="contact__socials-links">
               {/* Facebook */}
               <a 
-                href={siteConfig.socials?.facebook || "#"} 
+                href="https://www.facebook.com/mangataclub/photos?locale=es_LA"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link"
@@ -50,7 +50,7 @@ export default function Contact() {
 
               {/* Instagram */}
               <a 
-                href={siteConfig.socials?.instagram || "#"} 
+                href="https://www.instagram.com/ct.mangata/"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link"
@@ -62,7 +62,7 @@ export default function Contact() {
 
               {/* TikTok */}
               <a 
-                href={siteConfig.socials?.tiktok || "#"} 
+                href= "https://www.tiktok.com/@mangata_huasca"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link"
