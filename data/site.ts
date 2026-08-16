@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Complejo Turístico Mangata",
   location: "Huasca de Ocampo, Hidalgo",
-  phone: "+52 55 8187 7829", // Actualizado con el número real de tu imagen
-  whatsappNumber: "5581877829", // Actualizado con el número real de tu imagen
+  phone: "+52 55 8187 7829", 
+  whatsappNumber: "5581877829", 
   email: "reservas@cabanasbosqueencantado.com",
   address: "Huasca de Ocampo, Hidalgo, México",
   whatsappMessage: "Hola, quiero información para reservar una cabaña en Complejo Turístico Mangata.",
@@ -13,12 +13,11 @@ export const siteConfig = {
   }
 };
 
-// Pasamos de 8 enlaces estorbosos a solo 5 esenciales y bien distribuidos
 export const navLinks = [
   { label: "Cabañas", href: "#cabanas" },
   { label: "Servicios", href: "#servicios" },
   { label: "Ubicación", href: "#ubicacion" },
-  { label: "Preguntas", href: "#faq" }, // <-- ¡Listo! Ya aparece el FAQ aquí
+  { label: "Preguntas", href: "#faq" }, 
   { label: "Contacto", href: "#contacto" },
 ];
 
@@ -26,7 +25,13 @@ export const cabins = [
   {
     id: 1,
     title: "Casa del Árbol",
-    image: "/images/cabanas/casaarbol.jpg",
+    images: [
+      "/images/cabanas/casaarbol.jpg",
+      "/images/cabanas/cabana1/1-1.jpg",
+      "/images/cabanas/cabana1/1-2.jpg",
+      "/images/cabanas/cabana1/1-3.jpg",
+      "/images/cabanas/cabana1/1-4.jpg"
+    ],
     people: "2 personas",
     price: "$2,500 / noche",
     description:
@@ -45,7 +50,12 @@ export const cabins = [
   {
     id: 2,
     title: "Cabaña Matrimonial",
-    image: "/images/cabanas/casamatrimonial.jpg",
+    images: [
+      "/images/cabanas/cabana2o3/2-1.jpg",
+      "/images/cabanas/cabana2o3/2-2.jpg",
+      "/images/cabanas/cabana2o3/2-3.jpg",
+      "/images/cabanas/cabana2o3/2-4.jpg"
+    ],
     people: "2 personas",
     price: "$1,500 / noche",
     description:
@@ -64,7 +74,12 @@ export const cabins = [
   {
     id: 3,
     title: "Cabaña King Size",
-    image: "/images/cabanas/kingzize.jpg",
+    images: [
+      "/images/cabanas/cabana2o3/2-1.jpg",
+      "/images/cabanas/cabana2o3/2-2.jpg",
+      "/images/cabanas/cabana2o3/2-3.jpg",
+      "/images/cabanas/cabana2o3/2-4.jpg"
+    ],
     people: "2 personas",
     price: "$1,800 / noche",
     description:
@@ -81,30 +96,17 @@ export const cabins = [
     ],
   },
   {
-    id: 4,
+    id: 4, // Ajustado de 5 a 4
     title: "Casa Mangata",
-    image: "/images/cabanas/casamangata.jpg",
-    people: "2 o 4 personas",
-    price: "Desde $2,900 / noche",
-    description:
-      "Perfecta para parejas o familias pequeñas, con opción de sofá cama y tina de ducha.",
-    features: [
-      "Tina de ducha",
-      "Sofá cama matrimonial",
-      "Baño completo",
-      "Asador",
-      "Desayunador",
-      "Frigobar",
-      "Parrilla eléctrica",
-      "Cafetera",
+    images: [
+      "/images/cabanas/cabana4/4-1.jpg",
+      "/images/cabanas/cabana4/4-2.jpg",
+      "/images/cabanas/cabana4/4-3.jpg",
+      "/images/cabanas/cabana4/4-4.jpg",
+      "/images/cabanas/cabana4/4-5.jpg"
     ],
-  },
-  {
-    id: 5,
-    title: "Cabaña Familiar (4 personas)",
-    image: "/images/cabanas/cabana4personas.jpg",
-    people: "4 personas",
-    price: "$2,000 / noche",
+    people: "2 o 4 personas",
+    price: "$2,900 / noche",
     description:
       "Cabaña ideal para familias pequeñas con espacios cómodos.",
     features: [
@@ -119,9 +121,16 @@ export const cabins = [
     ],
   },
   {
-    id: 6,
+    id: 5, // Ajustado de 6 a 5
     title: "Cabaña 4 o 6 Personas",
-    image: "/images/cabanas/cabana46personas.jpg",
+    images: [
+      "/images/cabanas/cabana6/6-1.jpg",
+      "/images/cabanas/cabana6/6-2.jpg",
+      "/images/cabanas/cabana6/6-3.jpg",
+      "/images/cabanas/cabana6/6-4.jpg",
+      "/images/cabanas/cabana6/6-5.jpg",
+      "/images/cabanas/cabana6/6-6.jpg"
+    ],
     people: "4 a 6 personas",
     price: "$2,300 - $2,500 / noche",
     description:
@@ -139,9 +148,15 @@ export const cabins = [
     ],
   },
   {
-    id: 7,
+    id: 6, // Ajustado de 7 a 6
     title: "Cabaña #4",
-    image: "/images/cabanas/cabananumero4.jpg",
+    images: [
+      "/images/cabanas/cabanano4/7-1.jpg",
+      "/images/cabanas/cabanano4/7-2.jpg",
+      "/images/cabanas/cabanano4/7-3.jpg",
+      "/images/cabanas/cabanano4/7-4.jpg",
+      "/images/cabanas/cabanano4/7-5.jpg"
+    ],
     people: "8 personas",
     price: "$4,500 / noche",
     description:
@@ -158,9 +173,15 @@ export const cabins = [
     ],
   },
   {
-    id: 8,
+    id: 7, // Ajustado de 8 a 7
     title: "Cabaña #5",
-    image: "/images/cabanas/cabananumero5.jpg",
+    images: [
+      "/images/cabanas/cabanano5/8-1.jpg",
+      "/images/cabanas/cabanano5/8-2.jpg",
+      "/images/cabanas/cabanano5/8-3.jpg",
+      "/images/cabanas/cabanano5/8-4.jpg",
+      "/images/cabanas/cabanano5/8-5.jpg"
+    ],
     people: "8 personas",
     price: "$5,000 / noche",
     description:
@@ -178,9 +199,15 @@ export const cabins = [
     ],
   },
   {
-    id: 9,
+    id: 8, // Ajustado de 9 a 8
     title: "Cabaña #7",
-    image: "/images/cabanas/cabananumero7.jpg",
+    images: [
+      "/images/cabanas/cabanano7/9-1.jpg",
+      "/images/cabanas/cabanano7/9-2.jpg",
+      "/images/cabanas/cabanano7/9-3.jpg",
+      "/images/cabanas/cabanano7/9-4.jpg",
+      "/images/cabanas/cabanano7/9-5.jpg"
+    ],
     people: "8 personas",
     price: "$4,500 / noche",
     description:
@@ -195,9 +222,15 @@ export const cabins = [
     ],
   },
   {
-    id: 10,
+    id: 9, // Ajustado de 10 a 9
     title: "Cabaña con Alberca",
-    image: "/images/cabanas/cabanaalberca.jpg",
+    images: [
+      "/images/cabanas/cabanaalberca/10-1.jpg",
+      "/images/cabanas/cabanaalberca/10-2.jpg",
+      "/images/cabanas/cabanaalberca/10-3.jpg",
+      "/images/cabanas/cabanaalberca/10-4.jpg",
+      "/images/cabanas/cabanaalberca/10-5.jpg"
+    ],
     people: "10 personas",
     price: "$7,500 / noche",
     description:
@@ -214,9 +247,16 @@ export const cabins = [
     ],
   },
   {
-    id: 11,
+    id: 10, // Ajustado de 11 a 10
     title: "Cabaña 12 Personas",
-    image: "/images/cabanas/cabanas12personas.jpg",
+    images: [
+      "/images/cabanas/cabana12personas/12-1.jpg",
+      "/images/cabanas/cabana12personas/12-2.jpg",
+      "/images/cabanas/cabana12personas/12-3.jpg",
+      "/images/cabanas/cabana12personas/12-4.jpg",
+      "/images/cabanas/cabana12personas/12-5.jpg",
+      "/images/cabanas/cabana12personas/12-6.jpg"
+    ],
     people: "12 personas",
     price: "$7,900 / noche",
     description:
@@ -233,9 +273,15 @@ export const cabins = [
     ],
   },
   {
-    id: 12,
+    id: 11, // Ajustado de 12 a 11
     title: "Cabaña 16 Personas",
-    image: "/images/cabanas/cabanas166personas.jpg",
+    images: [
+      "/images/cabanas/cabana16p/13-1.jpg",
+      "/images/cabanas/cabana16p/13-2.jpg",
+      "/images/cabanas/cabana16p/13-3.jpg",
+      "/images/cabanas/cabana16p/13-4.jpg",
+      "/images/cabanas/cabana16p/13-5.jpg"
+    ],
     people: "16 personas",
     price: "$8,500 / noche",
     description:
@@ -253,9 +299,16 @@ export const cabins = [
     ],
   },
   {
-    id: 13,
+    id: 12, // Ajustado de 13 a 12
     title: "Cabaña 20 Personas",
-    image: "/images/cabanas/cabana20personas.jpg",
+    images: [
+      "/images/cabanas/cabana20p/14-1.jpg",
+      "/images/cabanas/cabana20p/14-2.jpg",
+      "/images/cabanas/cabana20p/14-3.jpg",
+      "/images/cabanas/cabana20p/14-4.jpg",
+      "/images/cabanas/cabana20p/14-5.jpg",
+      "/images/cabanas/cabana20p/14-6.jpg"
+    ],
     people: "20 personas",
     price: "$10,000 - $11,000 / noche",
     description:
@@ -282,7 +335,7 @@ export const experiences = [
   {
     title: "Escapada romántica",
     description:
-      "Preparamos detalles especiales para aniversarios, cumpleaños o fines de semana en pareja.",
+      "Preparamos detalles especiales para anniversarios, cumpleaños o fines de semana en pareja.",
   },
   {
     title: "Cercanía a atractivos turísticos",
@@ -292,24 +345,9 @@ export const experiences = [
 ];
 
 export const gallery = [
-  {
-    src: "/images/cabanas/hero.jpg",
-    alt: "Cabaña elegante en Huasca de Ocampo",
-  },
-  {
-    src: "/images/cabanas/bosque.jpg",
-    alt: "Bosque cerca de las cabañas",
-  },
-  {
-    src: "/images/cabanas/interior.jpg",
-    alt: "Interior cálido de cabaña",
-  },
-  {
-    src: "/images/cabanas/comida.jpg",
-    alt: "Interior cálido de cabaña",
-  },
-  {
-    src: "/images/cabanas/camping.jpg",
-    alt: "Interior cálido de cabaña",
-  },
+  { src: "/images/cabanas/hero.jpg", alt: "Cabaña elegante en Huasca de Ocampo" },
+  { src: "/images/cabanas/bosque.jpg", alt: "Bosque cerca de las cabañas" },
+  { src: "/images/cabanas/interior.jpg", alt: "Interior cálido de cabaña" },
+  { src: "/images/cabanas/comida.jpg", alt: "Interior cálido de cabaña" },
+  { src: "/images/cabanas/camping.jpg", alt: "Interior cálido de cabaña" },
 ];
