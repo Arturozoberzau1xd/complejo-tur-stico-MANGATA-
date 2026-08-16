@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tudominio.com"),
+  metadataBase: new URL("https://complejo-tur-stico-mangata.vercel.app"),
   title: {
     default: "Cabañas en Huasca de Ocampo | Descanso en el bosque",
     template: "%s | Cabañas en Huasca",
@@ -18,11 +18,15 @@ export const metadata: Metadata = {
     "cabañas con chimenea",
   ],
   authors: [{ name: "Cabañas Bosque Encantado" }],
+  // AQUÍ AGREGASTE LA VERIFICACIÓN DE GOOGLE:
+  verification: {
+    google: "yj1gyxaZ1DSYC3Wld6TlPTJkWqUB5yeDY8rvQxuPgXg",
+  },
   openGraph: {
     title: "Cabañas en Huasca de Ocampo",
     description:
       "Hospédate en cabañas elegantes rodeadas de bosque, tranquilidad y experiencias únicas.",
-    url: "https://tudominio.com",
+    url: "https://complejo-tur-stico-mangata.vercel.app",
     siteName: "Cabañas Bosque Encantado",
     images: [
       {
